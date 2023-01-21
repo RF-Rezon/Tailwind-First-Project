@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>My tailwind project</title>
+    <link rel="icon" type="image/x-icon" href="./img/icons8-geometric-flowers-32.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header id="headero">
+      <nav class="relative container mx-auto p-6" data-aos="fade-down">
+        <div class="flex items-center justify-between">
+          <!-- logo -->
+          <div class="pt-2">
+            <img src="./img/logo.svg" alt="" />
+          </div>
+          <!-- menu -->
+          <div class="hidden md:flex space-x-12">
+            <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+            <a href="#" class="hover:text-darkGrayishBlue">About</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Carees</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+          </div>
+          <!-- Button -->
+          <a class="hidden p-3 px-6 text-white bg-brightRed rounded-full hover:bg-brightRedLight md:block" href=""
+            >Get Started</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+          <!-- left item -->
+          <div class="flex flex-col mb-32 space-y-12 md:w-1/2" data-aos="fade-up-right">
+            <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+              Bring everyone together to build better products
+            </h1>
+            <p class="text-center text-darkGrayishBlue md:text-left">
+              Manage makes it simple for software developers to easily.
+            </p>
+            <div class="flex justify-center md:justify-start">
+              <a class="p-3 px-6 text-white bg-brightRed rounded-full hover:bg-brightRedLight" href="">Get Started</a>
+            </div>
+          </div>
+          <!-- Right item -->
+          <div class="md:w-1/2" data-aos="fade-up-left">
+            <img src="./img/illustration-intro.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row md:space-x-10">
+          <!-- Whats different from -->
+
+          <div class="flex flex-col space-y-12 md:w-1/2">
+            <h2 class="max-w-md text-4xl font-bold text-center md:text-left">What's different about Manage?</h2>
+            <p class="text-center text-darkGrayishBlue md:text-left">
+              Manage makes it simple for software developers to easily.
+            </p>
+          </div>
+
+          <!-- Numbered Lists -->
+          <div class="flex flex-col space-y-8 md:w-1/2">
+            <div class="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-6" data-aos="fade-up">
+              <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+                <div class="flex items-center space-x-2">
+                  <div class="px-4 py-2 text-white md:py-1 bg-brightRed rounded-full">01</div>
+                  <h3 class="text-base font-bold md:mb-4 md:hidden">Track company wide progess</h3>
+                </div>
+              </div>
+              <div>
+                <h3 class="hidden mb-4 text-lg font-bold md:block">Track company wide progess</h3>
+                <p class="text-darkGrayishBlue">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum earum explicabo quod rem maxime
+                  dolore maiores quia voluptatem temporibus!
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-6" data-aos="fade-up">
+              <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+                <div class="flex items-center space-x-2">
+                  <div class="px-4 py-2 text-white md:py-1 bg-brightRed rounded-full">02</div>
+                  <h3 class="text-base font-bold md:mb-4 md:hidden">Advanced build in reports</h3>
+                </div>
+              </div>
+              <div>
+                <h3 class="hidden mb-4 text-lg font-bold md:block">Advanced build in reports</h3>
+                <p class="text-darkGrayishBlue">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum earum explicabo quod rem maxime
+                  dolore maiores quia voluptatem temporibus!
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-6" data-aos="fade-up">
+              <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+                <div class="flex items-center space-x-2">
+                  <div class="px-4 py-2 text-white md:py-1 bg-brightRed rounded-full">03</div>
+                  <h3 class="text-base font-bold md:mb-4 md:hidden">Everything you need in one place</h3>
+                </div>
+              </div>
+              <div>
+                <h3 class="hidden mb-4 text-lg font-bold md:block">Everything you need in one place</h3>
+                <p class="text-darkGrayishBlue">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum earum explicabo quod rem maxime
+                  dolore maiores quia voluptatem temporibus!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials -->
+      <section id="testimonials">
+        <!-- Container to heading and testm blocks -->
+        <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+          <!-- Heading -->
+          <h2 class="text-4xl font-bold text-center">What's Different About Manage?</h2>
+          <!-- Testimonials Container -->
+          <div class="flex flex-col mt-24 space-y-4 md:flex-row md:space-x-12">
+            <!-- Testimonial 1 -->
+            <div
+              class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
+              data-aos="fade-right"
+            >
+              <img src="img/rsz_rezon.jpg" class="w-16" alt="" />
+              <h5 class="text-lg font-bold">Me</h5>
+              <p class="text-sm text-darkGrayishBlue">
+                “Amr sundor ekta family ache. Familyr boro chele ami. Rozy holo amr cute of the cute bou. Onk lokkhi amr
+                ei bou ta amr famliy te ese familyr mukh ujjol krlo. She makes me harder. She is my inspiration❤️”
+              </p>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div
+              class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
+              data-aos="fade-left"
+            >
+              <img class="w-16" src="img/pexels-kristina-paukshtite-1591246.jpg" alt="" />
+              <h5 class="text-lg font-bold">S.A. Rozy</h5>
+              <p class="text-sm text-darkGrayishBlue">
+                “Amro sundor ekta family ache. Familyr choto cute gulu gulu tai ami. Rezon holo amr cute of the cute
+                jamai. Onk valobahsi amr ei jamai tare. Majhe majhe ektu boki..veblar moto amr boka khaitei thake...koto
+                cute🥺🥺”
+              </p>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div
+              class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
+              data-aos="fade-right"
+            >
+              <img src="img/pexels-travis-rupert-1032650.jpg" class="w-16" alt="" />
+              <h5 class="text-lg font-bold">Sokal Belar Pakhi</h5>
+              <p class="text-sm text-darkGrayishBlue">
+                “Ami sokal bela uthi, sujji mama daki, shonda kale bapparajer moto cheka kheye osto jai🥱🥱”
+              </p>
+            </div>
+          </div>
+          <!-- Button -->
+          <div class="my-16">
+            <a
+              href="#headero"
+              class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+              >Ekdom Upore Jan</a
+            >
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-14 mb-12 font-bold text-3xl">😊 Be Happy! 🎉</div>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
